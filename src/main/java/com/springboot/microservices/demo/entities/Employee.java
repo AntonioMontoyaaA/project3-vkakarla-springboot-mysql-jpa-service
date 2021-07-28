@@ -12,7 +12,7 @@ import org.springframework.core.annotation.Order;
 
 @Order(Ordered.HIGHEST_PRECEDENCE)
 @Entity
-@Table(name="employee", schema = "vrk_sql_poc")
+@Table(name="employee", schema = "desa")
 public class Employee implements Serializable {
     
 	/**
